@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    link(rel="stylesheet", href="/Compiled-HTML/css/reset.css")
+    link(rel="stylesheet", href="/Compiled-HTML/css/normalize.css")
+    link(rel="stylesheet" href="/Compiled-HTML/css/style.css")
+    title Dashboard
+
+  body
+    .container
+      nav.sidebar
+        .logo
+          img.logo__img(src="icons/setting.svg", alt="icons")
+          h1.logo__text Dashboard
+          p.logo__version v.01
+        include navig
+        .author 
+          img.author__img(src="img/Ellipse.png", alt="photo")
+          p.author__name Evano 
+          p.author__position Project&nbsp;Manager
+      main.main-content 
+        h2 Hello Evano 👋🏼,
+        .all-customers
+          .all-customers__info
+            h3.all-customers__info_head All Customers
+              p.all-customers__info_subhead Active Members
+            .all-customers__info_seach
+              img.find(src="icons/search.svg", alt="search")
+              input(type="text" placeholder="Search")
+            
+          .all-customers__list
+            table 
+              thead 
+                tr
+                  th Customer Name
+                  th Company
+                  th Phone Number
+                  th Email
+                  th Country 
+                  th Status
+              include customersList
+            .all-customers__list_info 
+              p.total Showing data 1 to 8 of  256K entries
+              .pages 
+                ul.pages-list
+                  li.page-numb.page-not-active <
+                  li.page-numb.page-active 1
+                  li.page-numb.page-not-active 2
+                  li.page-numb.page-not-active 3
+                  li.page-numb.page-not-active 4
+                  li.smth ... 
+                  li.page-numb.page-not-active 40
+                  li.page-numb.page-not-active >
+  script(src="script.js")

@@ -1,0 +1,709 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* line 3, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+body {
+  width: 100%;
+  font-family: Poppins;
+}
+
+/* #region navigation */
+/* line 10, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.container {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 306px 1fr;
+  height: 100%;
+  box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+}
+
+/* line 19, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 5.68%;
+  padding-left: 9.33%;
+}
+
+/* line 24, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.logo__img {
+  display: inline-block;
+  width: 30.09px;
+  height: 32.79px;
+  padding-right: 11.45px;
+}
+
+/* line 29, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.logo__text {
+  display: inline-block;
+  width: 150px;
+  height: 39px;
+  color: black;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+
+/* line 40, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.logo__version {
+  width: 18px;
+  height: 15px;
+  padding-top: 12px;
+  color: #838383;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+/* line 52, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section {
+  margin-top: 64px;
+  margin-left: 28px;
+}
+
+/* line 55, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: none;
+  padding-left: 11px;
+  width: 250px;
+  height: 46px;
+  position: relative;
+}
+
+/* line 64, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li:hover {
+  border-radius: 8px;
+  background-color: #5932ea;
+}
+
+/* line 67, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li:hover a.section__li_text {
+  color: white;
+}
+
+/* line 69, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li:hover p.section__li_item {
+  color: white;
+}
+
+/* line 71, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li_img {
+  width: 24px;
+  height: 24px;
+  padding-right: 14px;
+}
+
+/* line 75, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li_text {
+  color: #9197b3;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* line 84, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.section__li_item {
+  color: #838383;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+/* line 89, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.author {
+  display: flex;
+  position: absolute;
+  left: 28px;
+  bottom: 76px;
+}
+
+/* line 94, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.author__img {
+  padding-right: 12px;
+}
+
+/* line 96, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.author__name {
+  width: 44px;
+  height: 21px;
+  color: black;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+
+/* line 106, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.author__position {
+  position: absolute;
+  left: 54px;
+  bottom: 0px;
+  color: #757575;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+
+/* #endregion */
+/* #region main */
+/* line 120, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+h2 {
+  position: absolute;
+  height: 36px;
+  left: 377px;
+  top: 41px;
+  color: black;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* line 133, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.main-content {
+  width: 100%;
+  height: 100vh;
+  background-color: #fafbff;
+}
+
+/* line 138, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers {
+  margin: 128px 95px 258px 71px;
+  height: 753px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  background-color: white;
+}
+
+/* line 145, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 149, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info_head {
+  margin-top: 30px;
+  margin-left: 38px;
+  display: inline-block;
+  color: black;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+/* line 160, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info_subhead {
+  color: #16c098;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+/* line 168, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info_search {
+  margin-left: auto;
+}
+
+/* line 170, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info_seach {
+  margin-top: 44px;
+  margin-right: 53px;
+  width: 216px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #f9fbff;
+}
+
+/* line 177, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info .find {
+  padding: 10px;
+}
+
+/* line 180, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__info input {
+  padding-top: 5px;
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -1%;
+  text-align: left;
+  position: absolute;
+  height: 35px;
+  border: none;
+  width: 158px;
+  background-color: #f9fbff;
+}
+
+/* line 194, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__list {
+  margin-top: 40px;
+}
+
+/* line 196, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.all-customers__list_info {
+  display: flex;
+  margin-top: 32.5px;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+
+/* line 201, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+table {
+  width: 100%;
+}
+
+/* line 204, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+thead {
+  padding-bottom: 13.5px;
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -1%;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 213, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+th, td {
+  text-align: left;
+  padding-left: 38px;
+  padding-bottom: 13.5px;
+}
+
+/* line 218, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+td {
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+/* line 228, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+tr {
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 231, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.total {
+  margin-left: 38px;
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+/* line 241, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.pages {
+  display: flex;
+}
+
+/* line 244, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.pages-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 250, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.page-numb {
+  margin-right: 10px;
+  position: relative;
+  width: 26px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 9px 6px 9px;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+}
+
+/* line 264, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.page-not-active {
+  background-color: whitesmoke;
+}
+
+/* line 266, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.page-active {
+  background-color: #5932ea;
+  color: #FFF;
+}
+
+/* line 270, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.smth {
+  margin: 5px 10px 5px 5px;
+}
+
+/* line 274, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+button {
+  position: relative;
+  width: 80px;
+  height: 29px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px 4px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* line 294, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.active {
+  color: #008767;
+  border: 1px solid #00b087;
+  background: rgba(22, 192, 152, 0.38);
+}
+
+/* line 299, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.inactives {
+  color: #DF0404;
+  border: 1px solid #df0404;
+  background: #ffc5c5;
+}
+
+/* #region main */
+@media (max-width: 1280px) {
+  /* line 307, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .container {
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 256px 1fr;
+  }
+  /* line 312, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo {
+    padding-top: 2.68%;
+    padding-left: 9.33%;
+  }
+  /* line 316, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .section {
+    margin-top: 10px;
+    margin-left: 28px;
+  }
+  /* line 319, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .section__li {
+    margin-bottom: 10px;
+    padding-left: 11px;
+    width: 200px;
+    height: 36px;
+  }
+  /* line 324, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  h2 {
+    position: absolute;
+    height: 36px;
+    left: 277px;
+    top: 27px;
+  }
+  /* line 330, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .main-content {
+    width: 100%;
+    background-color: #fafbff;
+  }
+  /* line 336, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers {
+    margin: 90px 60px 258px 20px;
+    height: 463px;
+  }
+  /* line 340, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_head {
+    margin-top: 10px;
+    margin-left: 38px;
+    font-size: 20px;
+  }
+  /* line 344, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_subhead {
+    font-size: 12px;
+  }
+  /* line 346, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_seach {
+    margin-top: 14px;
+    margin-right: 53px;
+    width: 216px;
+    height: 34px;
+  }
+  /* line 351, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info .find {
+    padding: 8px;
+  }
+  /* line 353, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info input {
+    height: 29px;
+  }
+  /* line 355, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__list {
+    margin-top: 15px;
+  }
+  /* line 357, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__list_info {
+    margin-top: 20px;
+  }
+  /* line 359, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  thead {
+    padding-bottom: 10.5px;
+    font-size: 12px;
+  }
+  /* line 362, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  th, td {
+    text-align: left;
+    padding-left: 38px;
+    padding-bottom: 5.5px;
+  }
+  /* line 366, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+  }
+  /* line 371, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .total {
+    font-size: 12px;
+  }
+  /* line 373, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .page-numb {
+    margin-right: 10px;
+    position: relative;
+    width: 22px;
+    height: 20px;
+    font-size: 12px;
+    padding: 4px 7px 4px 7px;
+  }
+  /* line 380, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .smth {
+    margin: 2px 8px 3px 3px;
+  }
+  /* line 382, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  button {
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+  }
+  /* line 386, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .author {
+    left: 28px;
+    bottom: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 391, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .container {
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 160px 1fr;
+  }
+  /* line 395, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo {
+    padding-top: 1.68%;
+    padding-left: 6.33%;
+  }
+  /* line 398, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo__img {
+    width: 20.09px;
+    height: 22.79px;
+    padding-right: 5px;
+  }
+  /* line 402, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo__text {
+    font-size: 16px;
+  }
+  /* line 404, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo__version {
+    width: 60px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 8px;
+  }
+  /* line 409, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .section {
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  /* line 412, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .section__li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 140px;
+  }
+  /* line 416, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .author {
+    left: 4px;
+    bottom: 16px;
+  }
+  /* line 420, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  h2 {
+    left: 180px;
+    top: 14px;
+    font-size: 18px;
+  }
+  /* line 424, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers {
+    margin: 120px 20px 200px 20px;
+    height: 503px;
+  }
+  /* line 428, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_head {
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 20px;
+  }
+  /* line 432, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_subhead {
+    font-size: 12px;
+  }
+  /* line 434, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_seach {
+    margin-top: 14px;
+    margin-right: 18px;
+    width: 216px;
+    height: 34px;
+  }
+  /* line 439, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__list {
+    margin-top: 25px;
+  }
+  /* line 441, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__list_info {
+    margin-top: 25px;
+  }
+  /* line 443, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  thead {
+    padding-bottom: 14.5px;
+    font-size: 12px;
+  }
+  /* line 446, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  th, td {
+    text-align: left;
+    padding-left: 18px;
+    padding-bottom: 5.5px;
+  }
+  /* line 450, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+  }
+  /* line 455, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .total {
+    font-size: 12px;
+  }
+}
+
+/* line 457, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.page-numb {
+  margin-right: 10px;
+  position: relative;
+  width: 22px;
+  height: 20px;
+  font-size: 12px;
+  padding: 4px 7px 4px 7px;
+}
+
+/* line 464, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+.smth {
+  margin: 2px 8px 3px 3px;
+}
+
+/* line 467, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+button {
+  width: 60px;
+  height: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  /* line 473, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .container {
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 100px 1fr;
+  }
+  /* line 478, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .logo {
+    padding-top: 5.68%;
+    padding-left: 5%;
+  }
+  /* line 482, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .section {
+    margin-left: 2px;
+  }
+  /* line 485, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers {
+    margin: 40px 10px 10px 10px;
+    height: 753px;
+  }
+  /* line 489, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 494, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_head {
+    margin-left: 2px;
+  }
+  /* line 498, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__info_seach {
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 80%;
+  }
+  /* line 504, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  .all-customers__list_info {
+    margin-right: 2px;
+  }
+  /* line 507, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  table {
+    width: 100%;
+  }
+  /* line 510, ../Users/Administrator/Desktop/task/Compiled-HTML/sass/style.sass */
+  th, td {
+    padding-left: 2px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

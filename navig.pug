@@ -1,0 +1,8 @@
+- const menuValues = [['key-square', '/dashboard', 'Dashboard', 'icons/white/key-square.svg',''],['3d-square', '/product', 'Product', 'icons/white/3d-square.svg','>'],['user-square', '/Compiled-HTML/index.html', 'Customers', 'icons/white/user-square.svg','>'],['wallet-money', '/income', 'Income','icons/white/wallet-money.svg','>'],['discount-shape', '/promote', 'Promote', 'icons/white/discount-shape.svg','>'],['message-question', 'https://www.google.com/', 'Help', 'icons/white/message-question.svg','>']]
+
+ul.section
+  each value in menuValues
+    li.section__li
+      img.section__li_img(src='icons/' + value[0] + '.svg', alt='icons', data-hover-src=value[3])
+      a(href=value[1]).section__li_text #{value[2]}
+      p.section__li_item #{value[4]}
